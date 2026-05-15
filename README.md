@@ -30,20 +30,7 @@ Projeto acadêmico com foco em:
 
 # 🎥 Demonstração
 
-<img width="800" height="1422" alt="bordasGIF" src="https://github.com/user-attachments/assets/b94a8a8f-ecba-46ae-ba74-3d640d1554fe" />
-
-Estrutura recomendada:
-
-```text
-projeto/
-│
-├── assets/
-│      demo.gif
-│
-├── lib/
-│
-└── README.md
-```
+<img width="400" height="711" alt="bordasGIF_50porcento" src="https://github.com/user-attachments/assets/71f55edf-0650-433e-aeda-68c7849b3bc9" />
 
 ---
 
@@ -100,18 +87,6 @@ Ambiente utilizado:
 - VS Code
 - Android Studio Emulator
 
-Pacotes utilizados:
-
-```yaml
-dependencies:
-  flutter:
-    sdk: flutter
-
-  image: ^4.2.0
-  camera: ^0.11.0+2
-  cupertino_icons: ^1.0.8
-```
-
 ---
 
 # 🧠 Funcionamento do Algoritmo
@@ -153,105 +128,6 @@ O pixel é identificado como borda.
 
 ---
 
-# 🔄 Fluxo do Aplicativo
-
-```text
-Abrir App
-      ↓
-Inicializar câmera
-      ↓
-Capturar imagem
-      ↓
-Mostrar imagem original
-      ↓
-Converter para grayscale
-      ↓
-Detectar bordas
-      ↓
-Mostrar resultado final
-```
-
----
-
-# 🔐 Permissões Android
-
-Arquivo:
-
-```text
-android/app/src/main/AndroidManifest.xml
-```
-
-Permissão utilizada:
-
-```xml
-<uses-permission
-    android:name="android.permission.CAMERA"/>
-```
-
-Essa permissão permite acessar a câmera do dispositivo para captura das imagens.
-
----
-
-# 🚀 Como Executar
-
-Clone o repositório:
-
-```bash
-git clone URL_DO_REPOSITORIO
-```
-
-Entre na pasta:
-
-```bash
-cd detector_de_bordas2
-```
-
-Instale dependências:
-
-```bash
-flutter pub get
-```
-
-Execute:
-
-```bash
-flutter run
-```
-
----
-
-# 📦 Dependências
-
-Arquivo:
-
-`pubspec.yaml`
-
-Principais dependências:
-
-```yaml
-image: ^4.2.0
-camera: ^0.11.0+2
-```
-
-### image
-
-Utilizado para:
-
-- leitura da imagem
-- conversão grayscale
-- manipulação de pixels
-- geração da imagem processada
-
-### camera
-
-Utilizado para:
-
-- acessar câmera do dispositivo
-- capturar fotografias
-- preview em tempo real
-
----
-
 # 🎓 Objetivo Acadêmico
 
 Projeto desenvolvido para praticar conceitos relacionados a:
@@ -274,6 +150,3 @@ Graduanda em Ciência da Computação
 
 ---
 
-# 📄 Licença
-
-Projeto desenvolvido para fins acadêmicos.
