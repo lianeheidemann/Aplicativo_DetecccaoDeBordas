@@ -46,37 +46,6 @@ lib/
       └── result_page.dart
 ```
 
-### main.dart
-
-Responsável por:
-
-- Inicializar o aplicativo
-- Definir tela inicial
-
----
-
-### camera_page.dart
-
-Responsável por:
-
-- Inicializar câmera
-- Mostrar preview da câmera
-- Capturar imagem
-- Navegar para tela de resultado
-
----
-
-### result_page.dart
-
-Responsável por:
-
-- Exibir imagem original
-- Converter imagem para grayscale
-- Aplicar detecção de bordas
-- Mostrar resultado final
-
----
-
 # ⚙ Tecnologias Utilizadas
 
 Ambiente utilizado:
