@@ -29,7 +29,7 @@ Projeto desenvolvido com:
 
 - **Flutter**
 - **Dart**
-- 
+  
 ---
 
 ## Funcionalidades
